@@ -84,7 +84,8 @@ function ListingPage1() {
 
             <div className='w-[90%] flex items-start justify-start flex-col gap-[10px]'>
               <label htmlFor="landmark" className='text-[20px]'>Landmark</label>
-              <input type="text" id='landmark' className='w-[90%] h-[40px] border-[2px] border-[#555656] rounded-lg text-[18px] px-[20px]' required onChange={(e)=>setLandmark(e.target.value)} value={landmark}/>
+              <input type="text" id='landmark' className='w-[90%] h-[40px] border-[2px] border-[#555656] rounded-lg text-[18px] px-[20px]'
+               required onChange={(e)=>setLandmark(e.target.value)} value={landmark}/>
 
             </div> 
 
